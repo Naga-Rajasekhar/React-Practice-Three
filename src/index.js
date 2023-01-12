@@ -9,7 +9,13 @@ root.render(
   <div>
     <App name="Raj"></App>
     <Navbar></Navbar>
-    <Cards imgAddr="https://images.pexels.com/photos/5623798/pexels-photo-5623798.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load..."></Cards>
-    <Cards imgAdd="https://images.pexels.com/photos/14894303/pexels-photo-14894303.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"></Cards>
+    <Cards
+      imgAdd="https://images.pexels.com/photos/5623798/pexels-photo-5623798.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load..."
+      testing="One"
+    ></Cards>
+    <Cards
+      imgAdd="https://images.pexels.com/photos/9866795/pexels-photo-9866795.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      testing="Two"
+    ></Cards>
   </div>
 );
